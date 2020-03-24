@@ -4,7 +4,9 @@
 
 .show {
     display: block;
-    border: 3px solid grey;
+    border: 3px solid rgb(17, 17, 17);
+    background-color: grey;
+    border-radius: 10px;
     width: 160px;
     height: 300px;
 }

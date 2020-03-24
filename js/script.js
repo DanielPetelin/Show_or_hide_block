@@ -12,5 +12,12 @@ function hide() {
     modal.classList.add('hide');
 };
 
+document.onkeypress = function (e) {
+    if (e.keyCode == 32) {
+        modal.classList.remove('show');
+        modal.classList.add('hide');
+    };
+};
+
 btnShow.onclick = show;
 btnHide.onclick = hide;

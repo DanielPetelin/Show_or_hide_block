@@ -1,12 +1,10 @@
-.show {
-    width: 300px;
-    height: 100px;
-    border: 3px solid rgb(43, 43, 43);
-    border-radius: 10px;
-    background-color: rgb(179, 179, 179);
+.hide {
+    display: none;
 }
 
-.delet {
-    width: 0;
-    height: 0;
+.show {
+    display: block;
+    border: 3px solid grey;
+    width: 160px;
+    height: 300px;
 }
